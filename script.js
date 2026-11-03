@@ -9,7 +9,7 @@ for(let i=0;i<box.length;i++){
 			}
 		}
 	});
-	box[i].addEventListener("mouseover",(e)=>{
+	box[i].addEventListener("mouseout",(e)=>{
 		let hoveredbox=e.target.id;
 		for(let i=0;i<box.length;i++){
 			if(box[i].id!=hoveredbox){

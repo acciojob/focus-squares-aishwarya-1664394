@@ -5,7 +5,7 @@ for(let i=0;i<box.length;i++){
 		let hoveredbox=e.target.id;
 		for(let i=0;i<box.length;i++){
 			if(box[i].id!=hoveredbox){
-				box[i].style.backgroundColor="#E6E6FA";
+				box[i].style.backgroundColor="#6F4E37";
 			}
 		}
 	}

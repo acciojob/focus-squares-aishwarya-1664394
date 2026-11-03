@@ -8,7 +8,7 @@ for(let i=0;i<box.length;i++){
 				box[i].style.backgroundColor="#E6E6FA";
 			}
 		}
-		box[i].addEventListener("mouseout",(e)=>{
+		box.addEventListener("mouseout",(e)=>{
 		
 		for(let i=0;i<box.length;i++){
 			

@@ -9,12 +9,11 @@ for(let i=0;i<box.length;i++){
 			}
 		}
 	}
-	box.addEventListener("mouseout",(e)=>{
-		
-		
+	for(let i=0;i<box.length;i++){						
+	box.addEventListener("mouseout",(e)=>{	
 			
-				box.style.backgroundColor="#E6E6FA";
+		box.style.backgroundColor="#E6E6FA";
 			
-	
 })
+	}
 	
